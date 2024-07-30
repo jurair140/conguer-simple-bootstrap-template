@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(56, 62, 76);
+    font-weight: 500;
+}
+nav  a{
+    transition: all 0.8s;
+}
+
+nav li a:hover{
+    background-color: #49505F;
+}
+nav li{
+    border: 0.5px solid gray;
+}
+
+#home .card img{
+    /* opacity: 0.5; */
+    height: 700px;
+    filter: blur(5px);
+
+}
+#home .card h1{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-shadow: 3px 2px 2px #000000;
+
+    
+}
+#home .card p{
+    font-size: 30px;
+    text-shadow: 3px 2px 2px #000000;
+
+}
+.card{
+    background-color: rgba(204, 204, 204, 0.604);
+}
+.serv-card .card-img-overlay{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.serv-card .card-img-overlay h1{
+    text-shadow: 3px 2px 2px #686666;
+}
+.contact{
+    margin-top: 100px;
+    background-image: url(https://images.unsplash.com/photo-1498429089284-41f8cf3ffd39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 600px;
+    /* max-height: 1200px; */
+}
+.form p{
+    background-color: rgba(255, 228, 196, 0.367);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+}
+.colx input,textarea{
+    background-color: rgba(255, 228, 196, 0.505);
+    padding: 6px;
+    border: 0px solid white;
+    border-radius: 5px;
+    width: 100%;
+}
+::placeholder{
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+}
+
+
+
